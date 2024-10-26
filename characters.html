@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Characters | Teyvat Notes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-ico.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png" />
+</head>
+
+<body>
+    <div id="container">
+
+        <header id = "header">
+            <!-- Mobile Nav -->
+                <nav class="mobile-nav">
+                    <div id="menu-links">
+                        <a href="index.html">Home</a>
+                        <a href="characters.html">Characters</a>
+                        <a href="news.html">News</a>
+                        <a href="builds.html">Builds</a>
+                        <a href="#footer">Contact Us</a>
+                    </div>
+                    <a class = "menu-icon" onclick = "hamburger()">
+                        <div>&#9776;</div>
+                    </a>
+                </nav>
+    
+            <!-- Tablet, Desktop Nav -->
+                <nav id = "tablet-desktop">
+                    <div class="logo-container">
+                        <a href="index.html">
+                            <img src="images/teyvat_logo.png" 
+                            width="100"
+                            alt="Teyvat Notes Logo"
+                            id="header-img">
+                        </a>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="characters.html">Characters</a></li>
+                        <li><a href="news.html">News / Events</a></li>
+                        <li><a href="builds.html">Builds</a></li>
+                    </ul>
+    
+                    <div id="contact-button">
+                        <a href="#footer">Contact Us</a>
+                    </div>
+                </nav>
+            </header>
+
+        <main id="content">
+            <div class="headers">
+                <h1>Characters</h1>
+                <p>Discover the unique abilities, elements, and stories of Genshin Impact's diverse characters.</p>
+            </div>
+
+            <!-- Nation One -->
+            <div class="nation-container">
+                <div class="nation-card">
+                    <img src="images/Nationcard_Mondstadt.png"
+                    alt="Nation Namecard"
+                    id="nation-image">
+                </div>
+            </div>
+
+            <div class="character-container">
+                <div class="character-cards">
+                    <!-- Character One -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Venti_Card_Low.jpg"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Venti</span>
+                                <img src="images/Element_Anemo.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Bow</p>
+                                <p>Role: Support, Grouper</p>
+                                
+                                <p>The carefree bard of Mondstadt and God of Anemo in disguise, Venti brings the power of the wind to both battle and song.</p>
+                            </div >
+                        </div>
+                    </div>
+                    
+                    <!-- Character Two -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Eula_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Eula</span>
+                                <img src="images/Element_Cryo.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Claymore</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>The rebellious descendant of the Lawrence Clan. Eula is fiercely loyal to Mondstadt and fights for justice in her own way.</p>
+                            </div >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Nation Two -->
+            <div class="nation-container">
+                <div class="nation-card">
+                    <img src="images/Nationcard_Liyue.png"
+                    alt="Nation Namecard"
+                    id="nation-image">
+                </div>
+            </div>
+
+            <div class="character-container">
+                <div class="character-cards">
+                    <!-- Character Three -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Zhongli_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Zhongli</span>
+                                <img src="images/Element_Geo.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Polearm</p>
+                                <p>Role: Support, Shielder</p>
+                                
+                                <p>The wise consultant of Wangsheng Funeral Parlor and the God of Geo in disguise, Zhongli wields the power of stone to defend and devastate on the battlefield.</p>
+                            </div >
+                        </div>
+                    </div>
+                    
+                    <!-- Character Four -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Hu_Tao_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Hu Tao</span>
+                                <img src="images/Element_Pyro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Polearm</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>The 77th Director of the Wangsheng Funeral Parlor and a master of the Pyro element, Hu Tao blends her role with spirited energy and fiery combat prowess.</p>
+                            </div >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nation Three -->
+            <div class="nation-container">
+                <div class="nation-card">
+                    <img src="images/Nationcard_Inazuma.png"
+                    alt="Nation Namecard"
+                    id="nation-image">
+                </div>
+            </div>
+
+            <div class="character-container">
+                <div class="character-cards">
+                    <!-- Character Five -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Raiden_Shogun_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Raiden Shogun</span>
+                                <img src="images/Element_Electro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Polearm</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>The Electro God and ruler of Inazuma, She commands lightning with grace and authority, blending elegance with overwhelming power in battle.</p>
+                            </div >
+                        </div>
+                    </div>
+                    
+                    <!-- Character Six -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Kaedehara_Kazuha_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Kazuha</span>
+                                <img src="images/Element_Anemo.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Sword</p>
+                                <p>Role: Grouper, Buffer</p>
+                                
+                                <p>A wandering samurai from Inazuma, Kazuha wields the wind with grace and precision, bringing a serene yet formidable presence to the battlefield.</p>
+                            </div >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nation Four -->
+            <div class="nation-container">
+                <div class="nation-card">
+                    <img src="images/Nationcard_Sumeru.png"
+                    alt="Nation Namecard"
+                    id="nation-image">
+                </div>
+            </div>
+
+            <div class="character-container">
+                <div class="character-cards">
+                    <!-- Character Seven -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Nahida_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Nahida</span>
+                                <img src="images/Element_Dendro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Catalyst</p>
+                                <p>Role: Support, Buffer</p>
+                                
+                                <p>The Dendro God of Sumeru, Nahida channels the power of nature with wisdom and grace, guiding her allies with a blend of nurturing support and fierce control.</p>
+                            </div >
+                        </div>
+                    </div>
+                    
+                    <!-- Character Eight -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Nilou_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Nilou</span>
+                                <img src="images/Element_Hydro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Sword</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>A graceful dancer from Sumeru, Nilou wields Hydro with elegance, enchanting the battlefield with her fluid movements.</p>
+                            </div >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nation Five -->
+            <div class="nation-container">
+                <div class="nation-card">
+                    <img src="images/Nationcard_Fontaine.png"
+                    alt="Nation Namecard"
+                    id="nation-image">
+                </div>
+            </div>
+
+            <div class="character-container">
+                <div class="character-cards">
+                    <!-- Character Nine -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Furina_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Furina</span>
+                                <img src="images/Element_Hydro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Sword</p>
+                                <p>Role: Damage, Buffer, Healer</p>
+                                
+                                <p>The enigmatic Hydro God of Fontaine, Furina commands the waters with both allure and authority, blending elegance with formidable control in her divine presence.</p>
+                            </div >
+                        </div>
+                    </div>
+                    
+                    <!-- Character Ten -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Neuvillette_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Neuvillette</span>
+                                <img src="images/Element_Hydro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Catalyst</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>The dignified Chief Justice of Fontaine, Neuvillette commands the power of Hydro with calm authority, balancing judgment with overwhelming strength.</p>
+                            </div >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nation Six -->
+            <div class="nation-container">
+                <div class="nation-card">
+                    <img src="images/Nationcard_Natlan.png"
+                    alt="Nation Namecard"
+                    id="nation-image">
+                </div>
+            </div>
+
+            <div class="character-container">
+                <div class="character-cards">
+                    <!-- Character Eleven -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Mualani_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Mualani</span>
+                                <img src="images/Element_Hydro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Catalyst</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>Being a guide, a surfer, and a water sports shop owner, Mualani, together with her pet Sharky, wields the waters and overwhelms enemy with their tide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Character TWelve -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Kinich_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Kinich</span>
+                                <img src="images/Element_Dendro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Claymore</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>Representative of the Scions of the Canopy and is accompanied by the self-proclaimed "Almighty Dragonlord" K'uhul Ajaw. Together, they bring enemies to their demise with the power of Dendro.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nation Seven -->
+            <div class="nation-container">
+                <div class="nation-card">
+                    <img src="images/Nationcard_Snezhnaya.png"
+                    alt="Nation Namecard"
+                    id="nation-image">
+                </div>
+            </div>
+
+            <div class="character-container">
+                <div class="character-cards">
+                    <!-- Character Thirteen -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Tartaglia_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Tartaglia</span>
+                                <img src="images/Element_Hydro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Bow</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>A member of the Fatui Harbingers and a master of both Hydro and martial combat, Tartaglia excels in battle, swiftly switching between ranged and melee attacks.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Character Fourteen -->
+                    <div class="card">
+                        <div class="character-image">
+                            <img src="images/Arlecchino_Card.png"
+                            alt="Character Card"
+                            id="character-image">
+                        </div>
+                        <div class="inner-card">
+                            <img src="images/5_Star.png"
+                            alt="5 star picture"
+                            id="star-image">
+
+                            <div class="name-element">
+                                <span>Arlecchino</span>
+                                <img src="images/Element_Pyro.png" alt="element picture"
+                                id="element-image"> 
+                            </div>
+                            
+                            <div class="content">
+                                <p>Weapon Type: Polearm</p>
+                                <p>Role: Damage</p>
+                                
+                                <p>A cunning Fatui Harbinger, Arlecchino manipulates situations from the shadows, her every move driven by ambition and ruthless strategy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer id="footer">
+            <div class="footer-container">
+                <section class="footer-section">
+                    <h4>Contact Us</h4>
+                    <div class="contact-item">
+                            <img src="images/icon_email.png" alt="email icon"> 
+                            <span>hoyoverse@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="images/icon_phone.png" alt="Phone Icon"> 
+                        <span>+1 555 23456</span>
+                    </div>
+                </section>
+
+                <section class="footer-section">
+                    <h4>Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="characters.html">Characters</a></li>
+                            <li><a href="news.html">News / Events</a></li>
+                            <li><a href="builds.html">Builds</a></li>
+                        </ul>
+                </section>
+
+                <section class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/Genshinimpact" target="_blank"><img src="images/icon_facebook.png"></a>
+                        <a href="https://x.com/GenshinImpact" target="_blank"><img src="images/icon_twitter.png"></a>
+                        <a href="https://www.youtube.com/@GenshinImpact" target="_blank"><img src="images/icon_youtube.png"></a>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | Teyvat Notes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-ico.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png" />
+</head>
+
+<body>
+    <div id="container">
+
+        <header id = "header">
+        <!-- Mobile Nav -->
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="index.html">Home</a>
+                    <a href="characters.html">Characters</a>
+                    <a href="news.html">News</a>
+                    <a href="builds.html">Builds</a>
+                    <a href="#footer">Contact Us</a>
+                </div>
+                <a class = "menu-icon" onclick = "hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>
+
+        <!-- Tablet, Desktop Nav -->
+            <nav id = "tablet-desktop">
+                <div class="logo-container">
+                    <a href="index.html">
+                        <img src="images/teyvat_logo.png" 
+                        width="100"
+                        alt="Teyvat Notes Logo"
+                        id="header-img">
+                    </a>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="news.html">News / Events</a></li>
+                    <li><a href="builds.html">Builds</a></li>
+                </ul>
+
+                <div id="contact-button">
+                    <a href="#footer">Contact Us</a>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- Hero Image-->
+		<div id="hero">
+			<img src="images/teyvat_logo.png" 
+            alt="teyvat notes logo">
+		</div>
+
+        <main id="content">
+
+            <!-- Video Area -->
+            <div id="video-container">
+                <video controls poster="images/genshin_scenery.jpg">
+                    <source src = "media/genshin_video.mp4" type = "video/mp4">
+                    <source src = "media/genshin_video.webm" type = "video/webm">
+                    <track src = "media/captions.vtt" kind = "captions" srclang = "en-us" label = "English">
+                    <track src = "media/descriptions.vtt" kind = "descriptions" srclang = "en-us" label = "English Descriptions">
+                    <p>Your browser does not support the video element.</p>
+                </video>
+            </div>
+
+            <div class="headers">
+                <h1>Teyvat Notes</h1>
+                <p id="companion">Your Genshin Impact Companion</p>
+                <p>Get to know Genshin Impact's characters. Keep track of the latest news, events, and updates. Explore strategies and builds to uncover the secrets of Teyvat and conquer challenges.</p>
+
+                <p>Whether you're a seasoned Traveler or just starting your adventure, Teyvat Notes can walk you through the world of Teyvat.</p>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="footer-container">
+                <section class="footer-section">
+                    <h4>Contact Us</h4>
+                    <div class="contact-item">
+                            <img src="images/icon_email.png" alt="email icon"> 
+                            <span>hoyoverse@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="images/icon_phone.png" alt="Phone Icon"> 
+                        <span>+1 555 23456</span>
+                    </div>
+                </section>
+
+                <section class="footer-section">
+                    <h4>Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="characters.html">Characters</a></li>
+                            <li><a href="news.html">News / Events</a></li>
+                            <li><a href="builds.html">Builds</a></li>
+                        </ul>
+                </section>
+
+                <section class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/Genshinimpact" target="_blank"><img src="images/icon_facebook.png"></a>
+                        <a href="https://x.com/GenshinImpact" target="_blank"><img src="images/icon_twitter.png"></a>
+                        <a href="https://www.youtube.com/@GenshinImpact" target="_blank"><img src="images/icon_youtube.png"></a>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
